@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBDBDB;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #E5EFE4;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Logout Button */
+.logout-container {
+    position: absolute;
+    right: 20px;
+}
+
+.logout-container a {
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logout-container a:hover {
+    background-color: #c0392b;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0E7911;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: rgb(23, 185, 28);
+    border-radius: 5px;
+}
+
+/* Attendance Container */
+.attendance-container {
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    text-align: center;
+}
+
+.attendance-container label {
+    display: block;
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+
+.attendance-container select,
+.attendance-container input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.attendance-container button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #0E7911;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.attendance-container button:hover {
+    background-color: rgb(23, 185, 28);
+}
